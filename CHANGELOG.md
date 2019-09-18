@@ -1,3 +1,18 @@
+# [1.2.0-rc.1](https://github.com/angular/material/compare/v1.1.20...v1.2.0-rc.1) (2019-09-18)
+
+
+### Bug Fixes
+
+* **autocomplete:** improve handling of touch pads and touchscreens ([#11782](https://github.com/angular/material/issues/11782)) ([20c4d3f](https://github.com/angular/material/commit/20c4d3f)), closes [#11778](https://github.com/angular/material/issues/11778) [#11625](https://github.com/angular/material/issues/11625) [#11757](https://github.com/angular/material/issues/11757) [#11758](https://github.com/angular/material/issues/11758)
+* **autocomplete:** improve implementation of aria-activedescen… ([#11743](https://github.com/angular/material/issues/11743)) ([8c159aa](https://github.com/angular/material/commit/8c159aa)), closes [#11742](https://github.com/angular/material/issues/11742)
+
+
+### Features
+
+* **datepicker:** add support for aria-labelledby ([99b58a2](https://github.com/angular/material/commit/99b58a2))
+
+
+
 <a name="1.1.20"></a>
 ## [1.1.20](https://github.com/angular/material/compare/v1.1.19...v1.1.20) (2019-08-15)
 
