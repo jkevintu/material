@@ -81,6 +81,7 @@
         // may be confusing.
         var hiddenIcons = tAttrs.mdHideIcons;
         var ariaLabelValue = tAttrs.ariaLabel || tAttrs.mdPlaceholder;
+        var ariaLabelbyValue = tAttrs.ariaLabelby;
 
         var calendarButton = (hiddenIcons === 'all' || hiddenIcons === 'calendar') ? '' :
           '<md-button class="md-datepicker-button md-icon-button" type="button" ' +
@@ -107,6 +108,7 @@
         return calendarButton +
         '<div class="md-datepicker-input-container" ng-class="{\'md-datepicker-focused\': ctrl.isFocused}">' +
           '<input ' +
+            (ariaLabelbyValue ? 'aria-labelby="' + ariaLabelbyValue + '" ' : '') +
             (ariaLabelValue ? 'aria-label="' + ariaLabelValue + '" ' : '') +
             'class="md-datepicker-input" ' +
             'aria-haspopup="dialog" ' +
